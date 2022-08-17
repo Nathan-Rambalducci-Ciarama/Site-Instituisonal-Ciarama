@@ -6,6 +6,13 @@ body {
   overflow-x: hidden;
 }
 
+.funcionario {
+  margin: 0;
+  font-size: 42px;
+  position: absolute;
+  top: 10%;
+}
+
 .founder {
   font-family: 'Dancing Script', cursive;
   margin: 0;
