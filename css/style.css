@@ -6,6 +6,17 @@ body {
   overflow-x: hidden;
 }
 
+#email {
+  margin: 0;
+  margin-right: -35%;
+  padding-bottom: -25%;
+}
+
+#opiniao {
+
+  bottom: 80%;
+}
+
 .funcionario {
   margin: 0;
   font-size: 42px;
@@ -40,12 +51,16 @@ body {
   padding-bottom: 75px;
 }
 
+.layout_padding3-bottom {
+  padding-bottom: 10%;
+}
+
 .layout_padding-top {
   padding-top: 90px;
 }
 
 .layout_padding-bottom {
-  padding-bottom: 90px;
+  padding-bottom: 25px;
 }
 
 h1,
@@ -54,6 +69,7 @@ h2 {
 }
 
 .heading_container {
+  padding-top: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -83,6 +99,7 @@ h2 {
 }
 
 .heading_container.heading_center {
+  bottom: -80%;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -685,7 +702,7 @@ a:focus {
 }
 
 .book_section .heading_container {
-  margin-bottom: 25px;
+  margin-bottom: 5px;
 }
 
 .book_section .form_container .form-control {
