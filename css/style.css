@@ -24,6 +24,11 @@ body {
   top: 10%;
 }
 
+.visao {
+  font-size: 42px;
+  padding-bottom: 4%;
+}
+
 .founder {
   font-family: 'Dancing Script', cursive;
   margin: 0;
