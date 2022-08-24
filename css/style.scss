@@ -1,5 +1,5 @@
-$white: #ffffff;
 $black: #000000;
+$white: #ffffff;
 $primary1: #66C5F5; // Antes era 0000FF
 $primary2: #000046; 
 $textCol: #1f1f1f;
@@ -9,11 +9,11 @@ $textCol: #1f1f1f;
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Open+Sans:wght@400;600;700&display=swap');
 
 @mixin main-font {
-  font-family: "Open Sans", sans-serif;
+  font-family: "arial", "Microsoft Sans Serif", "Segoe UI";
 }
 
 @mixin second-font {
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Georgia', "Gill Sans";
 }
 
 @mixin hero_btn($col1, $col2, $pad1, $pad2, $bRadius) {
@@ -174,7 +174,7 @@ a:focus {
   span {
     font-weight: bold;
     font-size: 32px;
-    color: $white;
+    color: $black;
   }
 }
 
@@ -187,7 +187,7 @@ a:focus {
     .nav-item {
       .nav-link {
         padding: 5px 20px;
-        color: $white;
+        color: $black;
         text-align: center;
         text-transform: uppercase;
         border-radius: 5px;
@@ -209,7 +209,7 @@ a:focus {
   height: auto;
   padding: 0;
   border: none;
-  color: $white;
+  color: $black;
   margin: 0 10px;
 
   &:hover {
@@ -226,7 +226,7 @@ a:focus {
   }
 
   .user_link {
-    color: $white;
+    color: $black;
 
 
     &:hover {
@@ -243,7 +243,7 @@ a:focus {
     svg {
       width: 17px;
       height: auto;
-      fill: $white;
+      fill: $black;
       margin-bottom: 2px;
     }
 
@@ -256,7 +256,7 @@ a:focus {
   }
 
   .order_online {
-    @include hero_btn($primary1, $white, 8px, 30px, 45px);
+    @include hero_btn($primary1, $black, 8px, 30px, 45px);
   }
 }
 
@@ -274,7 +274,7 @@ a:focus {
     display: block;
     width: 35px;
     height: 4px;
-    background-color: $white;
+    background-color: $black;
     margin: 7px 0;
     transition: all 0.3s;
     position: relative;
@@ -288,7 +288,7 @@ a:focus {
       left: 0;
       height: 100%;
       width: 100%;
-      background-color: $white;
+      background-color: $black;
       top: -10px;
       border-radius: 5px;
       transition: all 0.3s;
@@ -335,7 +335,7 @@ a:focus {
   }
 
   .detail-box {
-    color: $white;
+    color: $black;
     margin-bottom: 145px;
 
     h1 {
@@ -349,7 +349,7 @@ a:focus {
     }
 
     a {
-      @include hero_btn($primary1, $white, 10px, 45px, 45px);
+      @include hero_btn($primary1, $black, 10px, 45px, 45px);
       margin-top: 10px;
     }
 
@@ -370,7 +370,7 @@ a:focus {
     align-items: center;
 
     li {
-      background-color: $white;
+      background-color: $black;
       width: 12px;
       height: 12px;
       border-radius: 100%;
@@ -400,7 +400,7 @@ a:focus {
     border-radius: 5px;
     padding: 20px 15px;
     background-color: $primary2;
-    color: $white;
+    color: $black;
 
     .img-box {
       width: 175px;
@@ -440,13 +440,13 @@ a:focus {
       p {}
 
       a {
-        @include hero_btn($primary1, $white, 10px, 30px, 45px);
+        @include hero_btn($primary1, $black, 10px, 30px, 45px);
 
         svg {
           width: 20px;
           height: auto;
           margin-left: 5px;
-          fill: $white;
+          fill: $black;
         }
       }
     }
@@ -485,7 +485,7 @@ a:focus {
 
       &.active {
         background-color: $primary2;
-        color: $white;
+        color: $black;
       }
     }
   }
@@ -493,9 +493,9 @@ a:focus {
   .box {
     position: relative;
     margin-top: 25px;
-    background-color: $white;
+    background-color: $black;
     border-radius: 10px;
-    color: $white;
+    color: $black;
     border-radius: 15px;
     overflow: hidden;
     background: linear-gradient(to bottom, #f1f2f3 25px, $primary2 25px);
@@ -549,7 +549,7 @@ a:focus {
         svg {
           width: 18px;
           height: auto;
-          fill: $white;
+          fill: $black;
         }
       }
     }
@@ -569,7 +569,7 @@ a:focus {
     margin-top: 45px;
 
     a {
-      @include hero_btn($primary1, $white, 10px, 55px, 45px);
+      @include hero_btn($primary1, $black, 10px, 55px, 45px);
     }
   }
 }
@@ -579,7 +579,7 @@ a:focus {
 // about section
 .about_section {
   background: $primary2;
-  color: $white;
+  color: $black;
 
   .row {
     align-items: center;
@@ -605,7 +605,7 @@ a:focus {
     }
 
     a {
-      @include hero_btn($primary1, $white, 10px, 45px, 45px);
+      @include hero_btn($primary1, $black, 10px, 45px, 45px);
       margin-top: 15px;
     }
   }
@@ -632,7 +632,7 @@ a:focus {
       padding-left: 25px;
       border: 1px solid #999;
       outline: none;
-      color: $black;
+      color: $white;
       border-radius: 5px;
       outline: none;
       box-shadow: none;
@@ -652,7 +652,7 @@ a:focus {
       margin-top: 15px;
       border: none;
       text-transform: uppercase;
-      @include hero_btn($primary1, $white, 10px, 55px, 45px);
+      @include hero_btn($primary1, $black, 10px, 55px, 45px);
     }
   }
 
@@ -715,7 +715,7 @@ a:focus {
 
     .detail-box {
       background-color: $primary2;
-      color: $white;
+      color: $black;
       padding: 25px 25px 15px 25px;
       border-radius: 5px;
 
@@ -745,7 +745,7 @@ a:focus {
         width: 45px;
         height: 45px;
         background-color: $primary1;
-        color: $white;
+        color: $black;
         outline: none;
         bottom: 0px;
         font-size: 24px;
@@ -778,7 +778,7 @@ a:focus {
       background-color: transparent;
       border: 1px solid #ccc;
       outline: none;
-      color: $black;
+      color: $white;
       border-radius: 5px;
 
       &::placeholder {
@@ -800,7 +800,7 @@ a:focus {
       margin-top: 10px;
       border: none;
       text-transform: uppercase;
-      @include hero_btn($primary1, $white, 10px, 55px, 0px);
+      @include hero_btn($primary1, $black, 10px, 55px, 0px);
     }
   }
 
@@ -813,7 +813,7 @@ a:focus {
 
 .footer_section {
   background-color: $primary2;
-  color: $white;
+  color: $black;
   padding: 75px 0 40px 0;
   text-align: center;
 
@@ -844,7 +844,7 @@ a:focus {
 
       a {
         margin: 5px 0;
-        color: $white;
+        color: $black;
 
         i {
           margin-right: 5px;
@@ -862,7 +862,7 @@ a:focus {
     font-weight: bold;
     font-size: 38px;
     line-height: 1;
-    color: $white;
+    color: $black;
   }
 
   .footer_social {
@@ -879,7 +879,7 @@ a:focus {
       width: 30px;
       height: 30px;
       border-radius: 100%;
-      background-color: $white;
+      background-color: $black;
       border-radius: 100%;
       margin: 0 2.5px;
       font-size: 18px;
@@ -897,7 +897,7 @@ a:focus {
     margin-top: 25px;
 
     p {
-      color: $white;
+      color: $black;
       margin: 0;
 
       a {
