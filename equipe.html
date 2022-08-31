@@ -131,6 +131,18 @@
 
   <!-- end client section -->
 
+  <script>
+    function copyToClipboard(element) {
+    var $temp = $("<input>");
+    $("body").append($temp);
+    $temp.val($(element).text())
+      .select();
+    document.execCommand("copy");
+    $temp.remove();
+    alert("Texto copiado!");
+    }
+      </script>
+
   <!-- footer section -->
   <footer class="footer_section">
     <div class="container">
@@ -147,15 +159,15 @@
                   BR-463 - Jardim Universitario, Ponta Porã - MS, 79906-666
                 </span>
               </a>
-              <a>
+              <a id="telefone">
                 <i class="fa fa-phone" aria-hidden="true"></i>
-                <span>
+                <span onclick="copyToClipboard('#telefone')">
                   0800 067 1177
                 </span>
               </a>
-              <a>
+              <a id="suporte">
                 <i class="fa fa-envelope" aria-hidden="true"></i>
-                <span>
+                <span onclick="copyToClipboard('#suporte')">
                   marketing@ciarama.com.br
                 </span>
               </a>
@@ -164,7 +176,7 @@
         </div>
         <div class="col-md-4 footer-col">
           <div class="footer_detail">
-            <a href="" class="footer-logo">
+            <a class="footer-logo">
               Ciarama
             </a>
             <p>
