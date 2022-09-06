@@ -76,7 +76,7 @@ padding-left: 0;
   }
 }
 
-@media (max-width: 376px) {
+@media (max-width: 10076px) {
   .slider_section .detail-box h1 {
     font-size: 3rem;
   }
