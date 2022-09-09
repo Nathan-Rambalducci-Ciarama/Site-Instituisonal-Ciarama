@@ -6,6 +6,10 @@ body {
   overflow-x: hidden;
 }
 
+.direitos {
+  margin-top: 15px;
+}
+
 .goToTheBottomPls {
   /*
   margin-top: 36rem;
@@ -13,17 +17,19 @@ body {
   margin-right: -390px;
   padding-right: 500%;
   padding-left: -200%;
+  background-color: rgb(255, 255, 255, 0.25);
   */
-  background-color: rgb(255, 255, 255, 0.75);
-  margin-top: 36rem;
+  background-color: rgb(0, 0, 0, 0.25);
+  margin-top: 20rem;
   margin-left: -190px;
   margin-right: -780px;
+  color: white;
 }
 
 .overlay-image {
 
   width: 100%;
-  height: 690px;
+  height: 790px;
   bottom: 0;
   left: 0;
   right: 0;
