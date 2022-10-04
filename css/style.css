@@ -6,8 +6,13 @@ body {
   overflow-x: hidden;
 }
 
+#opacequeBG{ 
+  background: rgb(2,0,36);
+  background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 0%, rgba(255,255,255,0.3508753843334209) 0%);
+}
+
 .direitos {
-  margin-top: 15px;
+  margin-top: 40px;
 }
 
 .goToTheBottomPls {
@@ -1049,7 +1054,11 @@ a:focus {
 .footer_section .footer-logo {
   font-weight: 600;
   margin-bottom: 20px;
-  font-family: 'Georgia', "Gill Sans";
+  font-family: 'Arial Black', "Gill Sans";
+}
+
+#useGeorgia {
+  font-family: 'Georgia';
 }
 
 .footer_section p {

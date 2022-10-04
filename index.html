@@ -76,9 +76,10 @@
     <!-- slider section -->
     <section class="slider_section ">
       <div id="customCarousel1" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active overlay-image" style="background-image:url(images/hero-bg1.jpg);" >
-            <div class="container ">
+        <div class="carousel-inner" >
+          <div class="carousel-item active overlay-image" style="background-image:url(images/hero-bg1.jpg);">
+            <div class="container " style="background: rgb(255,255,255);
+            background: linear-gradient(180deg, rgba(255,255,255,1) 2%, rgba(255,255,255,0) 5%, rgba(255,255,255,0) 100%); padding-left: 100%; padding-right: 100%;">
               <div class="row">
                 <div class="col-md-7 col-lg-6 ">
                   <div class="detail-box">
@@ -95,7 +96,8 @@
             </div>
           </div>
           <div class="carousel-item overlay-image" style="background-image:url(images/hero-bg2.jpg);">
-            <div class="container ">
+            <div class="container " style="background: rgb(255,255,255);
+            background: linear-gradient(180deg, rgba(255,255,255,1) 2%, rgba(255,255,255,0) 5%, rgba(255,255,255,0) 100%); padding-left: 100%; padding-right: 100%;">
               <div class="row">
                 <div class="col-md-7 col-lg-6 ">
                   <div class="detail-box">
@@ -112,7 +114,8 @@
             </div>
           </div>
           <div class="carousel-item overlay-image" style="background-image:url(images/hero-bg3.jpg);">
-            <div class="container ">
+            <div class="container " style="background: rgb(255,255,255);
+            background: linear-gradient(180deg, rgba(255,255,255,1) 2%, rgba(255,255,255,0) 5%, rgba(255,255,255,0) 100%); padding-left: 100%; padding-right: 100%;">
               <div class="row">
                 <div class="col-md-7 col-lg-6 ">
                   <div class="detail-box">
@@ -128,7 +131,7 @@
               </div>
             </div>
           </div>
-        </div>
+      </div>
         <div class="container">
           <ol class="carousel-indicators">
             <li data-target="#customCarousel1" data-slide-to="0" class="active"></li>
@@ -137,7 +140,7 @@
           </ol>
         </div>
       </div>
-      <a href="#customCarousel1" class="carousel-control-prev" role="button" data-slide="prev">
+      <a href="#customCarousel1" class="carousel-control-prev" role="button" data-slide="prev" >
         <span class="sr-only">Anterior</span>
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       </a>
@@ -425,9 +428,9 @@
       <div class="row">
         <div class="col-md-4 footer-col">
           <div class="footer_contact">
-            <h4>
+            <h3 id="useGeorgia">
               Entre em contato
-            </h4>
+            </h3>
             <div class="contact_link_box">
               <a id="suporte">
                 <i class="fa fa-envelope" aria-hidden="true"></i>
@@ -440,7 +443,7 @@
         </div>
         <div class="col-md-4 footer-col">
           <div class="footer_detail">
-            <a class="footer-logo">
+            <a class="footer-logo" style="margin-top: -20px;">
               GRUPO CIARAMA
             </a>
             <p>
@@ -449,11 +452,9 @@
           </div>
         </div>
         <div class="col-md-4 footer-col direitos">
-          <p>
+          <p >
             &copy; <span id="displayYear"></span> Todos direitos reservados para
             <a>Ciarama</a><br><br>
-            &copy; <span id="displayYear"></span> Distributed By
-            <a href="https://themewagon.com/" target="_blank">ThemeWagon</a>
           </p>
         </div>
       </div>
