@@ -59,6 +59,16 @@ body {
   top: 10%;
 }
 
+#socio {
+  font-size: 24px;
+  padding-bottom: 4%;
+  text-align: start;
+  padding-left: 150px;
+}
+
+#socio b {
+  padding-left: 100px;
+}
 
 
 .visao {
